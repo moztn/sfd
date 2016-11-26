@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! • A-Frame</title>
+    <meta name="description" content="Hello, World! • A-Frame">
+    <script src="../components/aframe/dist/aframe-v0.3.2.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="skin" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
+      </a-assets>
+    	<a-sphere src="#skin" radius="2"></a-sphere>
+    	<a-entity position="0 -3 3.8">
+        	<a-camera></a-camera>
+      </a-entity>
+    </a-scene>
+  </body>
+</html>
